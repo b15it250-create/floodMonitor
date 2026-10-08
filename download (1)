@@ -1,0 +1,23 @@
+# FloodWatch AI configuration
+APP_NAME=FloodWatch AI
+REGION_NAME=Demo Flood-Prone Region
+ADMIN_PASSWORD=admin123
+
+# Optional Groq AI integration
+GROQ_API_KEY=
+GROQ_MODEL=llama-3.1-8b-instant
+
+# Optional OpenWeather integration
+OPENWEATHER_API_KEY=
+WEATHER_CITY=Guwahati
+
+# Flood thresholds
+WARNING_RIVER_LEVEL_M=4.5
+DANGER_RIVER_LEVEL_M=5.5
+CRITICAL_RIVER_LEVEL_M=6.2
+HEAVY_RAIN_24H_MM=120
+CRITICAL_RISK_THRESHOLD=80
+
+# Emergency Control Room sample coordinates
+CONTROL_LAT=26.1445
+CONTROL_LON=91.7362

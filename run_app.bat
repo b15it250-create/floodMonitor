@@ -1,0 +1,6 @@
+@echo off
+echo Installing/checking dependencies...
+pip install -r requirements.txt
+echo Starting FloodWatch AI...
+streamlit run app.py
+pause
